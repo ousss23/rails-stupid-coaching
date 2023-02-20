@@ -13,12 +13,14 @@
  *= require_tree .
  *= require_self
  */
- h1 {
-color: rosybrown;
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
 
+ body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
 
- }
-
- a {
-  text-decoration:none ;
- }
+h1 {
+  font-weight: 400;
+}
